@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "U-Boot",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/arch/sandbox/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-x64",
+            "forcedInclude": [
+                "${workspaceFolder}/include/linux/kconfig.h"
+            ]
+        }
+    ],
+    "version": 4
+}
