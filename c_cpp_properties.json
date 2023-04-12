@@ -3,13 +3,19 @@
         {
             "name": "U-Boot",
             "includePath": [
-                "${workspaceFolder}/include/**",
-                "${workspaceFolder}/arch/sandbox/include/**"
+                "${workspaceFolder}/include/*",
+                "${workspaceFolder}/arch/sandbox/include/*"
             ],
-            "defines": [],
+            "defines" : [
+                "__UBOOT__"
+             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++11",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            },
             "intelliSenseMode": "linux-gcc-x64",
             "forcedInclude": [
                 "${workspaceFolder}/include/linux/kconfig.h"
