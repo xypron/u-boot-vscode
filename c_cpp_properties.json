@@ -7,7 +7,8 @@
                 "${workspaceFolder}/arch/sandbox/include/*"
             ],
             "defines" : [
-                "__UBOOT__"
+                "__UBOOT__",
+                "HOST_ARCH=0x8664"
              ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
